@@ -1,4 +1,4 @@
-address 0x29eff105d5dc3d7733b2e4cd4c60485f9f26ac79f12e1a3083e30ecb0a71e8e0 {
+address 0x1d23c7ebfcf5233f87ae0fb98037960b42e3888d25249378ef4341e29ba74b09 {
 
 module RockPaperScissors {
     use std::signer;
