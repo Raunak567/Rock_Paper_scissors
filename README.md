@@ -44,3 +44,18 @@ cd Rock_Paper_Scissors
 ```
 
 #### Since we'll be deploying and interacting with our contract on the Aptos testnet, we need to create an account. Run the following command in your terminal and select "testnet" when prompted. Skip the private key prompt by pressing Enter, and a new account will be generated for you.
+```
+aptos init
+```
+
+#### We've successfully created an Aptos account. Now, open your smart contract and replace the placeholder value <insert-your-address> with your Aptos account address. You can find your address in your terminal, which starts with "0x".
+
+* Follow these steps to deploy your smart contract:
+
+Run the command below in your terminal.
+Confirm the transaction by entering "yes".
+```
+aptos move publish
+```
+#### Now that we've deployed the smart contract, let's play a game of Rock-Paper-Scissors! Start by copying your account address (the one you added to your smart contract) and searching for it on the [Aptos block explorer](https://explorer.aptoslabs.com/?network=testnet).
+* `(Make Sure Your Network Is Testnet)`
