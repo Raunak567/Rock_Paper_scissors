@@ -11,14 +11,36 @@
 * Restart game: Players can easily start a new round without affecting their overall score.
 
 ## Dependencies
-### This project relies on the Aptos framework. Make sure you have the necessary development environment set up for Aptos development.
+#### This project relies on the Aptos framework. Make sure you have the necessary development environment set up for Aptos development.
 
 ## Installation
-1. Clone the repository:
+
+#### You can either install the Aptos CLI locally or use a cloud-based development environment like Gitpod or Google Cloud Shell. In this guide, we'll show you how to set up Google Cloud Shell, but you're also welcome to use your preferred platform.
+
+## Setting Up Development Environment on Google Cloud Shell
+
+1. Open Google Cloud Shell to access the cloud shell editor. Once it's loaded, run the following command in the terminal to install the Aptos CLI:
+```
+curl -fsSL "https://aptos.dev/scripts/install_cli.py" | python3
+```
+
+2. Export Aptos CLI’s bin directory to your PATH environment variable. For example:
+```
+export PATH="/home/<your-username>/.local/bin:$PATH"
+```
+
+3. To verify that the Aptos CLI has been installed successfully, run the following command:
+```
+aptos info
+```
+
+4. Clone the repository:
 ```
 git clone https://github.com/Raunak567/Rock_Paper_Scissors.git
 ```
-2. Navigate to the project directory:
+5. Navigate to the project directory:
 ```
 cd Rock_Paper_Scissors
 ```
+
+#### Since we'll be deploying and interacting with our contract on the Aptos testnet, we need to create an account. Run the following command in your terminal and select "testnet" when prompted. Skip the private key prompt by pressing Enter, and a new account will be generated for you.
