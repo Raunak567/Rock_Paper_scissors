@@ -62,3 +62,5 @@ aptos move publish
 ```
 #### Now that we've deployed the smart contract, let's play a game of Rock-Paper-Scissors! Start by copying your account address (the one you added to your smart contract) and searching for it on the [Aptos block explorer](https://explorer.aptoslabs.com/?network=testnet).
 * `(Make Sure Your Network Is Testnet)`
+
+### Thank you for choosing my Rock-Paper-Scissors game on Aptos! We hope you enjoy playing and competing with others.
