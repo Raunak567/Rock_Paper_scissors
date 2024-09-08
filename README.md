@@ -1,4 +1,7 @@
-# Rock-Paper-Scissors on Aptos ()
+<h1 align=center>Rock-Paper-Scissors on Aptos ()</h1>
+
+## Aptos-based Rock-Paper-Scissors Game
+
 #### This repository contains an Aptos-based implementation of the classic Rock-Paper-Scissors game with exciting new features! Players can challenge the computer, track their wins, and compete for the top spot on the leaderboard.
 
 ## Features:
